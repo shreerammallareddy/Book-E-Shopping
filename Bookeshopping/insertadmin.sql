@@ -1,0 +1,1 @@
+INSERT INTO `customer_master`(`First_Name`, `Last_Name`, `EmailId`, `Password`, `IsAdmin`) VALUES ('Admin', 'Account', '5560A', 'c42edefc75871e4ce2146fcda67d03dda05cc26fdf93b17b55f42c1eadfdc322', '1')

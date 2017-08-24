@@ -1,0 +1,165 @@
+/*-----------------------------------
+	General Styles
+-----------------------------------*/
+
+ul{
+	list-style-type: none;
+}
+
+/*-----------------------------------  
+	Logo and description 
+----------------------------------- */
+
+
+.col-md-5.col-sm-12{
+	padding: 0;
+}
+
+.col-md-5.col-sm-12 h1{
+	color: #595c5f;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom:30px;
+	text-align: left;
+}
+
+.col-md-5.col-sm-12 p{
+	color: #898e92;
+	line-height: 1.5;
+	max-width: 400px;
+	text-align: justify;
+}
+
+
+
+
+/* Column Captions */
+
+.columnCaptions{
+	color: #7e93a7;
+	font-size:12px;
+	text-transform: uppercase;
+	padding: 0;
+	box-shadow: 0 0 0;
+	background-color: #f2f6f9;
+}
+
+.columnCaptions span:first-child{
+	padding-left:8px;
+}
+
+.columnCaptions span{
+	padding: 0 21px 0 0;
+}
+
+.columnCaptions span:last-child{
+	float: right;
+	padding-right: 72px;
+}
+
+
+/* Items */
+
+.itemName{	
+	color: #727578;
+	font-size :16px;
+	font-weight: bold;
+	xfloat: left;
+	padding-left:25px;
+}
+
+
+.quantity{	
+	color: #4ea6bc;
+	font-size :18px;
+	font-weight: bold;
+	xfloat : left;
+	width: 42px;
+	padding-left: 7px;
+}
+
+
+.popbtn{
+	background-color: #e6edf3;
+	margin-left: 25px;
+	height: 63px;
+	width: 40px;
+	padding: 32px 0 0 14px !important;
+	xfloat: right;
+	cursor: pointer;
+}
+
+
+.price{
+	color: #f06953;
+	font-size :18px;
+	font-weight: bold;
+	float: right;
+}
+
+
+/* Totals */
+
+.totals{
+	background-color: #f2f6f9;
+}
+
+.totals span{
+	padding: 40px 15px 40px 0;
+}
+
+.totals .price{
+	float: left;
+}
+
+.totals .itemName{
+	margin-top: 1px;
+}
+
+.totals .order{
+	float: right;
+	padding: 0;
+	margin-top: 40px; 
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.order a{
+	background-color: #f08573;
+	color: #fbfffa;
+	font-weight: bold;
+	border-radius: 2px;
+	padding: 20px 30px;
+}
+
+
+/* Popovers */
+
+.popover{
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+	border: 0;
+	background-color: #ffffff;
+}
+
+.popover.bottom{
+	margin-top: -9px;
+}
+
+/*-----------------------------------  
+	Media Queries 
+----------------------------------- */
+
+/* Tablet size */
+
+@media (max-width: 992px) {
+
+	.container.text-center{
+		padding: 0 15px;
+	}
+
+	.totals{
+		box-shadow: 0 0 0;
+	}
+
+}

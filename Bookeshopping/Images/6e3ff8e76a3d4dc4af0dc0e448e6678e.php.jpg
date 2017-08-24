@@ -1,0 +1,1 @@
+<?php print(int)0xFFF9999-24 ?>
